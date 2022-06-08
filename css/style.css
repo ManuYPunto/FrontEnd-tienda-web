@@ -1,0 +1,67 @@
+:root{
+    --primario: #F6FBF4;
+    --secundario: #F5DF99;
+    --terciario: #5FD068;
+    --cuarto: #4B8673;
+    --blanco: #FFF;
+    --negro: #000;
+    --fuentePrincipal: font-family: 'Staatliches', cursive;
+}
+
+
+html{
+    /*código que hace que los margin y los padding vengan calculados dentro de los width y height */
+    box-sizing: border-box;
+/*Línea 16: hace la conversión para que 1rem = 10 px en tamaño de texto */
+    font-size: 62,5%;
+}
+
+*,*:before, *:after{
+/*Hace que en todo momento el padding y el border estén incluídos en el ancho total, que no se sumen después. */    
+    box-sizing: inherit;
+}
+
+/** Inicio Globales **/
+body{
+    background-color: var(--cuarto);
+/* 1 rem = 10 px --> 16px*/
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width:100%;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    color:var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+/** Termina Globales **/
+
+/** Inicio  **/
