@@ -40,7 +40,7 @@ a{
 }
 
 img{
-    width:100%;
+    max-width:100%;
 }
 .contenedor{
     max-width: 120rem;
@@ -64,4 +64,21 @@ h3{
 }
 /** Termina Globales **/
 
+/** Inicio Header **/
+
+.header{
+    display:flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+/** Termina Header **/
+
+/** Inicio Navegacion **/
+.navegacion{
+    background-color: var(--secundario);
+}
+/** Termina Navegacion **/
 /** Inicio  **/
